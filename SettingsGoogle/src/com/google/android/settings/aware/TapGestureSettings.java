@@ -22,7 +22,7 @@ public class TapGestureSettings extends DashboardFragment {
     }
 
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SCORPION;
+        return MetricsProto.MetricsEvent.DIRTYTWEAKS;
     }
 
     public int getPreferenceScreenResId() {

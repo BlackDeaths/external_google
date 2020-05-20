@@ -105,7 +105,7 @@ public class CustomActions extends Action {
                 break;
             case 14: // Partial Screenshot
                 if (isScreenOn) {
-                    Utils.takeScreenshot(false);
+                    ActionUtils.takeScreenshot(false);
                 }
                 break;
             case 15: // Skip song
